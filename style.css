@@ -1,4 +1,4 @@
-h1 {
+.head_txt {
   font-size: 30pt;
 }
 
@@ -20,14 +20,14 @@ h1 {
   width: 35vw;
 }
 
-h1 {
+.head_txt {
   text-align: justify;
   justify-content: center;
   display: flex;
   max-width: 500px;
   margin: auto;
 }
-body {
+.site {
   background: teal;
   background-image: linear-gradient(200deg, green, black);
   background-repeat: no-repeat;
@@ -35,10 +35,10 @@ body {
   background-attachment: fixed;
 }
 
-iframe {
+.vid {
   aspect-ratio: 16/9;
 }
-p {
+.Main_txt {
   color: white;
 }
 .pic2 {
@@ -53,12 +53,12 @@ p {
   top: 50px;
   width: 250px;
 }
-table {
+.main_tab {
   border: 1px solid blue;
   display: flex;
   justify-content: center;
 }
-td {
+.tab {
   border: 1px solid gray;
   width: 50%;
 }
@@ -68,7 +68,7 @@ td {
   justify-content: end;
   position: relative;
 }
-h2 {
+.accomp {
   display: flex;
   justify-content: center;
   margin: auto;
